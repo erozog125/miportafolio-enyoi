@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/left.css">
+  <link rel="stylesheet" href="styles/right.css">
+  <title>Mi portafolio</title>
+</head>
+<body>
+  <div class="left-container">
+    <header>
+      <div class="container-img-profile">
+        <img class="img-profile" src="assets/Images/profile.png" alt="Imagen perfil">
+      </div>
+
+      <div class="container-name-profile">
+        <h1 class="name-profile">Edwin Rozo Gómez</h1>
+      </div>
+
+      <nav class="navbar-profile">
+        <ul>
+          <li><a href="#section-profile">Perfil</a></li>
+          <li><a href="#section-projects">Proyectos</a></li>
+          <li><a href="#section-references">Referencias</a></li>
+          <li><a href="#section-experiences">Experiencia</a></li>
+        </ul>
+      </nav>
+
+      <div class="container-logo">
+        <img src="assets/Images/logotipo-enyoi.png" alt="Logotipo">         
+      </div>
+    </header>
+    <footer>
+      <nav class="navbar-social-networks">
+        <ul>          
+          <li><a href=""><i class='bx bxl-facebook-circle' style='color:#ec12ba'></i></a></li>
+          <li><a href=""><i class='bx bxl-whatsapp' style='color:#f30fc7'></i></a></li>
+          <li><a href=""><i class='bx bxl-instagram'></i></a></li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+  <div class="right-container">
+    <main class="main-container">      
+      <section id="section-profile" class="section-info section-profile">
+        <h2>Perfil</h2>
+        <p>
+          Ingeniero de Software - Desarrollador de Software Frontend Con experiencia docente Siempre con la mejor energía para aprender nuevas herramientas y aportar a los equipos donde trabajo. Considero ser una persona propositiva en busca de propuestas de mejora a fin del crecimiento de todos. Conocimientos en distintas herramientas enfocadas al frontend especialmente. tales como: Javascript - ReactJs - CSS - Tailwind - Git.</p>
+      </section>
+      <section id="section-projects" class="section-info section-projects">
+        <h2>Proyectos</h2>
+        <div class="container-cards"></div>
+      </section>
+
+      <section id="section-references" class="section-info">
+        <h2>Referencias</h2>
+        <div class="card-references"></div>
+      </section>
+
+      <section id="section-experiences" class="section-info">
+        <h2>Experiencia</h2>
+        <div class="container-experience"></div>
+      </section>
+    </main>
+  </div>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
