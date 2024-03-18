@@ -1,7 +1,8 @@
 body > .right-container {
   width: 70%;
   height: max-content;
-  background-color: var(--second-color);
+  /* background-color: var(--second-color); */
+  background-color: #fff;
   position: relative;
   padding: 1rem;
   left: 30%;
